@@ -73,6 +73,23 @@ GenerateClassCluster=0
 DocumentUniqueId=CAUVYGDI
 
 [Document3]
+DocumentPath=FC_MainBoard.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QSCMGHQQ
+
+[Document4]
 DocumentPath=DAQ_Header.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BBYTKYGX
 
-[Document4]
+[Document5]
 DocumentPath=Power_Reg.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,6 +122,27 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QLIKAMCQ
+
+[Document6]
+DocumentPath=FC_MainBoard.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MYUGIJQL
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for uC_Board\Design Rule Check - FC_MainBoard.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -151,6 +189,11 @@ OutputName6=XSpice Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=PADSNetlist
+OutputName7=PADS ASCII Netlist
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -793,7 +836,7 @@ Type2=1
 Type3=2
 Type4=1
 Type5=2
-Type6=2
+Type6=0
 Type7=1
 Type8=1
 Type9=1
@@ -821,7 +864,7 @@ Type30=1
 Type31=1
 Type32=2
 Type33=2
-Type34=2
+Type34=0
 Type35=1
 Type36=2
 Type37=1
@@ -844,7 +887,7 @@ Type53=1
 Type54=1
 Type55=1
 Type56=2
-Type57=1
+Type57=0
 Type58=1
 Type59=0
 Type60=1
