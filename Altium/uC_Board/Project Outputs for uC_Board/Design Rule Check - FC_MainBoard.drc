@@ -1,0 +1,716 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Jorge\Documents\GitHub\fish-n-chips\Altium\uC_Board\FC_MainBoard.PcbDoc
+Date     : 11/10/2015
+Time     : 2:41:54 PM
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+Processing Rule : Room uC Board (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC Board'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :19
+
+Processing Rule : Room Power (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('Power'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :3
+
+Processing Rule : Room DAQ8 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('DAQ8'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :1
+
+Processing Rule : Room DAQ7 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('DAQ7'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :1
+
+Processing Rule : Room DAQ6 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('DAQ6'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :1
+
+Processing Rule : Room DAQ5 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('DAQ5'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :1
+
+Processing Rule : Room DAQ4 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('DAQ4'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :1
+
+Processing Rule : Room DAQ3 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('DAQ3'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :1
+
+Processing Rule : Room DAQ2 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('DAQ2'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :1
+
+Processing Rule : Room DAQ1 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('DAQ1'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :1
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Track (4436.722mil,5074mil)(4539.428mil,5074mil)  Top Layer and 
+                     Pad P2_DAQ2-20(4539.428mil,5074mil)  Top Layer
+   Violation between Track (2484.843mil,5074mil)(2605.714mil,5074mil)  Top Layer and 
+                     Pad P2_DAQ5-20(2605.714mil,5074mil)  Top Layer
+   Violation between Track (1833.648mil,5074mil)(1961.142mil,5074mil)  Top Layer and 
+                     Pad P2_DAQ6-20(1961.142mil,5074mil)  Top Layer
+   Violation between Track (6753.952mil,4833.678mil)(6753.952mil,4987.556mil)  Top Layer and 
+                     Pad U1-62(6753.952mil,4833.678mil)  Top Layer
+   Violation between Track (6734.266mil,4833.678mil)(6734.266mil,4961.771mil)  Top Layer and 
+                     Pad U1-61(6734.266mil,4833.678mil)  Top Layer
+   Violation between Track (6872.062mil,4833.678mil)(6872.062mil,5075.765mil)  Top Layer and 
+                     Pad U1-68(6872.062mil,4833.678mil)  Top Layer
+   Violation between Track (6852.378mil,4833.678mil)(6852.378mil,5041.814mil)  Top Layer and 
+                     Pad U1-67(6852.378mil,4833.678mil)  Top Layer
+Rule Violations :7
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net 2V5REF Between Pad P2_DAQ7-50 [Unplated] (1316.572,5824mil) And Pad P2_DAQ6-50 [Unplated] (1961.142,5824mil)
+   Violation between Un-Routed Net Constraint: Net 2V5REF Between Pad P2_DAQ3-50 [Unplated] (3894.858,5824mil) And Pad P2_DAQ2-50 [Unplated] (4539.428,5824mil)
+   Violation between Un-Routed Net Constraint: Net 2V5REF Between Pad P2_DAQ8-50 [Unplated] (672,5824mil) And Pad P2_DAQ7-50 [Unplated] (1316.572,5824mil)
+   Violation between Un-Routed Net Constraint: Net 2V5REF Between Pad P2_DAQ5-50 [Unplated] (2605.714,5824mil) And Pad P2_DAQ4-50 [Unplated] (3250.286,5824mil)
+   Violation between Un-Routed Net Constraint: Net 2V5REF Between Pad P2_DAQ2-50 [Unplated] (4539.428,5824mil) And Pad P2_DAQ1-50 [Unplated] (5184,5824mil)
+   Violation between Un-Routed Net Constraint: Net 2V5REF Between Pad P2_DAQ8-50 [Unplated] (672,5824mil) And Pad U5-6 (856.355,4023.943mil)
+   Violation between Un-Routed Net Constraint: Net 2V5REF Between Pad P2_DAQ6-50 [Unplated] (1961.142,5824mil) And Pad P2_DAQ5-50 [Unplated] (2605.714,5824mil)
+   Violation between Un-Routed Net Constraint: Net 2V5REF Between Pad P2_DAQ4-50 [Unplated] (3250.286,5824mil) And Pad P2_DAQ3-50 [Unplated] (3894.858,5824mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ5-10 [Unplated] (2605.714,4824mil) And Pad P2_DAQ5-12 [Unplated] (2605.714,4874mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ7-10 [Unplated] (1316.572,4824mil) And Pad P2_DAQ7-12 [Unplated] (1316.572,4874mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ2-10 [Unplated] (4539.428,4824mil) And Pad P2_DAQ2-12 [Unplated] (4539.428,4874mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ1-10 [Unplated] (5184,4824mil) And Pad P2_DAQ1-12 [Unplated] (5184,4874mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ6-10 [Unplated] (1961.142,4824mil) And Pad P2_DAQ6-12 [Unplated] (1961.142,4874mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (3894.858,4824mil) And Pad P2_DAQ3-12 [Unplated] (3894.858,4874mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ4-10 [Unplated] (3250.286,4824mil) And Pad P2_DAQ4-12 [Unplated] (3250.286,4874mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ8-10 [Unplated] (672,4824mil) And Pad P2_DAQ8-12 [Unplated] (672,4874mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (4426.112,4818.857mil) And Pad P2_DAQ2-10 [Unplated] (4539.428,4824mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (5071.495,4789.623mil) And Pad P2_DAQ1-10 [Unplated] (5184,4824mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U1-55 (6616.156,4833.678mil) And Pad U1-64 (6793.322,4833.678mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C1-2 (6341,4693.686mil) And Pad C17-2 (6571,4692.686mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C11-1 (6423.314,5800.22mil) And Pad C12-1 (6661.314,5801.22mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U1-74 (7023.636,4926.196mil) And Pad U1-88 (7023.636,5201.788mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U1-33 (6188.992,4965.566mil) And Pad U1-41 (6340.566,4833.678mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U1-33 (6188.992,4965.566mil) And Pad U1-18 (6188.992,5260.842mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C3-2 (7162.628,5546mil) And Pad C19-1 (7167.534,5221mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P1-5 (5767,4521mil) And Pad C6-2 (6029.686,4966mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C18-1 (7165.534,5590mil) And Pad R3-2 (7778.885,5926.092mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ2-10 [Unplated] (4539.428,4824mil) And Via (4747.408,3863.608mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Track on layer Top Layer (6794,4833mil) And Pad U1-74 (7023.636,4926.196mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U1-122 (6694.896,5668.322mil) And Pad U1-107 (7023.636,5575.804mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (3894.858,4824mil) And Via (4426.112,4818.857mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ2-10 [Unplated] (4539.428,4824mil) And Via (5071.495,4789.623mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (1319.449,4822.719mil) And Pad P2_DAQ6-10 [Unplated] (1961.142,4824mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ8-10 [Unplated] (672,4824mil) And Pad P2_DAQ7-10 [Unplated] (1316.572,4824mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ6-10 [Unplated] (1961.142,4824mil) And Pad P2_DAQ5-10 [Unplated] (2605.714,4824mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ5-10 [Unplated] (2605.714,4824mil) And Pad P2_DAQ4-10 [Unplated] (3250.286,4824mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ4-10 [Unplated] (3250.286,4824mil) And Via (3894.858,4824mil)
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad P2_DAQ1-10 [Unplated] (5184,4824mil) And Pad P1-5 (5767,4521mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ4-7 [Unplated] (3385.286,4774mil) And Pad P2_DAQ4-9 [Unplated] (3385.286,4824mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ5-5 [Unplated] (2740.714,4724mil) And Pad P2_DAQ5-7 [Unplated] (2740.714,4774mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ5-9 [Unplated] (2740.714,4824mil) And Pad P2_DAQ5-11 [Unplated] (2740.714,4874mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ3-5 [Unplated] (4029.858,4724mil) And Pad P2_DAQ3-7 [Unplated] (4029.858,4774mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ2-5 [Unplated] (4674.428,4724mil) And Pad P2_DAQ2-7 [Unplated] (4674.428,4774mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ1-5 [Unplated] (5319,4724mil) And Pad P2_DAQ1-7 [Unplated] (5319,4774mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ3-9 [Unplated] (4029.858,4824mil) And Pad P2_DAQ3-11 [Unplated] (4029.858,4874mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ2-9 [Unplated] (4674.428,4824mil) And Pad P2_DAQ2-11 [Unplated] (4674.428,4874mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ1-9 [Unplated] (5319,4824mil) And Pad P2_DAQ1-11 [Unplated] (5319,4874mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ4-9 [Unplated] (3385.286,4824mil) And Pad P2_DAQ4-11 [Unplated] (3385.286,4874mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ8-9 [Unplated] (807,4824mil) And Pad P2_DAQ8-11 [Unplated] (807,4874mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Via (807,4724mil) And Pad P2_DAQ8-7 [Unplated] (807,4774mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Via (1451.572,4724mil) And Pad P2_DAQ7-7 [Unplated] (1451.572,4774mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Via (2096.142,4724mil) And Pad P2_DAQ6-7 [Unplated] (2096.142,4774mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ6-7 [Unplated] (2096.142,4774mil) And Pad P2_DAQ6-9 [Unplated] (2096.142,4824mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ6-9 [Unplated] (2096.142,4824mil) And Pad P2_DAQ6-11 [Unplated] (2096.142,4874mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ4-5 [Unplated] (3385.286,4724mil) And Pad P2_DAQ4-7 [Unplated] (3385.286,4774mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ7-7 [Unplated] (1451.572,4774mil) And Pad P2_DAQ7-9 [Unplated] (1451.572,4824mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ7-9 [Unplated] (1451.572,4824mil) And Pad P2_DAQ7-11 [Unplated] (1451.572,4874mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad U5-2 (1045.331,4073.943mil) And Pad C26-1 (1103.577,3986.356mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Track on layer Top Layer (2487.729,3812.38mil) And Pad R11-2 (2979,3977.402mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ5-7 [Unplated] (2740.714,4774mil) And Pad P2_DAQ5-9 [Unplated] (2740.714,4824mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ3-7 [Unplated] (4029.858,4774mil) And Pad P2_DAQ3-9 [Unplated] (4029.858,4824mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ2-7 [Unplated] (4674.428,4774mil) And Pad P2_DAQ2-9 [Unplated] (4674.428,4824mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ1-7 [Unplated] (5319,4774mil) And Pad P2_DAQ1-9 [Unplated] (5319,4824mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ8-7 [Unplated] (807,4774mil) And Pad P2_DAQ8-9 [Unplated] (807,4824mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Via (1451.572,4724mil) And Via (2096.142,4724mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ5-5 [Unplated] (2740.714,4724mil) And Pad P2_DAQ4-5 [Unplated] (3385.286,4724mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad C26-1 (1103.577,3986.356mil) And Pad C25-2 (1935.043,3991.076mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ3-5 [Unplated] (4029.858,4724mil) And Pad P2_DAQ2-5 [Unplated] (4674.428,4724mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ2-5 [Unplated] (4674.428,4724mil) And Pad P2_DAQ1-5 [Unplated] (5319,4724mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Via (2096.142,4724mil) And Pad P2_DAQ5-5 [Unplated] (2740.714,4724mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Via (807,4724mil) And Via (1451.572,4724mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Via (807,4724mil) And Pad U5-2 (1045.331,4073.943mil)
+   Violation between Un-Routed Net Constraint: Net 5V Between Pad P2_DAQ4-5 [Unplated] (3385.286,4724mil) And Pad P2_DAQ3-5 [Unplated] (4029.858,4724mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Via (4029.858,4624mil) And Pad P2_DAQ3-3 [Unplated] (4029.858,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Via (3894.858,4624mil) And Pad P2_DAQ3-4 [Unplated] (3894.858,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Pad P2_DAQ4-1 [Unplated] (3385.286,4624mil) And Pad P2_DAQ4-3 [Unplated] (3385.286,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Via (3250.286,4624mil) And Pad P2_DAQ4-4 [Unplated] (3250.286,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Via (4674.428,4624mil) And Pad P2_DAQ2-3 [Unplated] (4674.428,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Pad P2_DAQ1-1 [Unplated] (5319,4624mil) And Pad P2_DAQ1-3 [Unplated] (5319,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Via (4539.428,4624mil) And Pad P2_DAQ2-4 [Unplated] (4539.428,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Pad P2_DAQ1-2 [Unplated] (5184,4624mil) And Pad P2_DAQ1-4 [Unplated] (5184,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Via (2605.714,4624mil) And Pad P2_DAQ5-4 [Unplated] (2605.714,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Pad P2_DAQ7-2 [Unplated] (1316.572,4624mil) And Pad P2_DAQ7-4 [Unplated] (1316.572,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Pad P2_DAQ7-1 [Unplated] (1451.572,4624mil) And Pad P2_DAQ7-3 [Unplated] (1451.572,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Pad P2_DAQ8-1 [Unplated] (807,4624mil) And Pad P2_DAQ8-3 [Unplated] (807,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Via (1961.142,4624mil) And Pad P2_DAQ6-4 [Unplated] (1961.142,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Pad P2_DAQ5-1 [Unplated] (2740.714,4624mil) And Pad P2_DAQ5-3 [Unplated] (2740.714,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Pad P2_DAQ8-2 [Unplated] (672,4624mil) And Pad P2_DAQ8-4 [Unplated] (672,4674mil)
+   Violation between Un-Routed Net Constraint: Net 24V Between Pad P2_DAQ6-1 [Unplated] (2096.142,4624mil) And Pad P2_DAQ6-3 [Unplated] (2096.142,4674mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C7-1 (5999.63,5292mil) And Pad C14-1 (6000.63,5252mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C19-2 (7195.094,5221mil) And Pad C2-1 (7201,5181mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C17-1 (6571,4653.316mil) And Pad C15-1 (6617,4651.316mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-44 [Unplated] (3250.286,5674mil) And Pad P2_DAQ4-46 [Unplated] (3250.286,5724mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-46 [Unplated] (2605.714,5724mil) And Pad P2_DAQ5-48 [Unplated] (2605.714,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-46 [Unplated] (1961.142,5724mil) And Pad P2_DAQ6-48 [Unplated] (1961.142,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-42 [Unplated] (3894.858,5624mil) And Pad P2_DAQ3-44 [Unplated] (3894.858,5674mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-40 [Unplated] (3250.286,5574mil) And Pad P2_DAQ4-42 [Unplated] (3250.286,5624mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-22 [Unplated] (5184,5124mil) And Pad P2_DAQ1-24 [Unplated] (5184,5174mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-22 [Unplated] (4539.428,5124mil) And Pad P2_DAQ2-24 [Unplated] (4539.428,5174mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-26 [Unplated] (4539.428,5224mil) And Pad P2_DAQ2-28 [Unplated] (4539.428,5274mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-22 [Unplated] (3894.858,5124mil) And Pad P2_DAQ3-24 [Unplated] (3894.858,5174mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-46 [Unplated] (1316.572,5724mil) And Pad P2_DAQ7-48 [Unplated] (1316.572,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-46 [Unplated] (3250.286,5724mil) And Pad P2_DAQ4-48 [Unplated] (3250.286,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-32 [Unplated] (3250.286,5374mil) And Pad P2_DAQ4-34 [Unplated] (3250.286,5424mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-32 [Unplated] (3894.858,5374mil) And Pad P2_DAQ3-34 [Unplated] (3894.858,5424mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-34 [Unplated] (3250.286,5424mil) And Pad P2_DAQ4-36 [Unplated] (3250.286,5474mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-40 [Unplated] (2605.714,5574mil) And Pad P2_DAQ5-42 [Unplated] (2605.714,5624mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-36 [Unplated] (2605.714,5474mil) And Pad P2_DAQ5-38 [Unplated] (2605.714,5524mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-40 [Unplated] (1961.142,5574mil) And Pad P2_DAQ6-42 [Unplated] (1961.142,5624mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-36 [Unplated] (3250.286,5474mil) And Pad P2_DAQ4-38 [Unplated] (3250.286,5524mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-32 [Unplated] (2605.714,5374mil) And Pad P2_DAQ5-34 [Unplated] (2605.714,5424mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-42 [Unplated] (2605.714,5624mil) And Pad P2_DAQ5-44 [Unplated] (2605.714,5674mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-34 [Unplated] (3894.858,5424mil) And Pad P2_DAQ3-36 [Unplated] (3894.858,5474mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-34 [Unplated] (5184,5424mil) And Pad P2_DAQ1-36 [Unplated] (5184,5474mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-26 [Unplated] (5184,5224mil) And Pad P2_DAQ1-28 [Unplated] (5184,5274mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-32 [Unplated] (4539.428,5374mil) And Pad P2_DAQ2-34 [Unplated] (4539.428,5424mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-28 [Unplated] (4539.428,5274mil) And Pad P2_DAQ2-30 [Unplated] (4539.428,5324mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-36 [Unplated] (3894.858,5474mil) And Pad P2_DAQ3-38 [Unplated] (3894.858,5524mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-40 [Unplated] (3894.858,5574mil) And Pad P2_DAQ3-42 [Unplated] (3894.858,5624mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-38 [Unplated] (4539.428,5524mil) And Pad P2_DAQ2-40 [Unplated] (4539.428,5574mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-40 [Unplated] (4539.428,5574mil) And Pad P2_DAQ2-42 [Unplated] (4539.428,5624mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-28 [Unplated] (5184,5274mil) And Pad P2_DAQ1-30 [Unplated] (5184,5324mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-34 [Unplated] (4539.428,5424mil) And Pad P2_DAQ2-36 [Unplated] (4539.428,5474mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-40 [Unplated] (5184,5574mil) And Pad P2_DAQ1-42 [Unplated] (5184,5624mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-32 [Unplated] (5184,5374mil) And Pad P2_DAQ1-34 [Unplated] (5184,5424mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-46 [Unplated] (4539.428,5724mil) And Pad P2_DAQ2-48 [Unplated] (4539.428,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-42 [Unplated] (5184,5624mil) And Pad P2_DAQ1-44 [Unplated] (5184,5674mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-46 [Unplated] (3894.858,5724mil) And Pad P2_DAQ3-48 [Unplated] (3894.858,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-26 [Unplated] (3894.858,5224mil) And Pad P2_DAQ3-28 [Unplated] (3894.858,5274mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-42 [Unplated] (4539.428,5624mil) And Pad P2_DAQ2-44 [Unplated] (4539.428,5674mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-36 [Unplated] (5184,5474mil) And Pad P2_DAQ1-38 [Unplated] (5184,5524mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-42 [Unplated] (1316.572,5624mil) And Pad P2_DAQ7-44 [Unplated] (1316.572,5674mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-46 [Unplated] (5184,5724mil) And Pad P2_DAQ1-48 [Unplated] (5184,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-22 [Unplated] (2605.714,5124mil) And Pad P2_DAQ5-24 [Unplated] (2605.714,5174mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-22 [Unplated] (3250.286,5124mil) And Pad P2_DAQ4-24 [Unplated] (3250.286,5174mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-28 [Unplated] (1961.142,5274mil) And Pad P2_DAQ6-30 [Unplated] (1961.142,5324mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-30 [Unplated] (1961.142,5324mil) And Pad P2_DAQ6-32 [Unplated] (1961.142,5374mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-24 [Unplated] (3250.286,5174mil) And Pad P2_DAQ4-26 [Unplated] (3250.286,5224mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-26 [Unplated] (3250.286,5224mil) And Pad P2_DAQ4-28 [Unplated] (3250.286,5274mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-30 [Unplated] (2605.714,5324mil) And Pad P2_DAQ5-32 [Unplated] (2605.714,5374mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-24 [Unplated] (2605.714,5174mil) And Pad P2_DAQ5-26 [Unplated] (2605.714,5224mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-26 [Unplated] (2605.714,5224mil) And Pad P2_DAQ5-28 [Unplated] (2605.714,5274mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-22 [Unplated] (1961.142,5124mil) And Pad P2_DAQ6-24 [Unplated] (1961.142,5174mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-24 [Unplated] (672,5174mil) And Pad P2_DAQ8-26 [Unplated] (672,5224mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-22 [Unplated] (1316.572,5124mil) And Pad P2_DAQ7-24 [Unplated] (1316.572,5174mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-22 [Unplated] (672,5124mil) And Pad P2_DAQ8-24 [Unplated] (672,5174mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-24 [Unplated] (1316.572,5174mil) And Pad P2_DAQ7-26 [Unplated] (1316.572,5224mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-24 [Unplated] (1961.142,5174mil) And Pad P2_DAQ6-26 [Unplated] (1961.142,5224mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-30 [Unplated] (1316.572,5324mil) And Pad P2_DAQ7-32 [Unplated] (1316.572,5374mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-26 [Unplated] (672,5224mil) And Pad P2_DAQ8-28 [Unplated] (672,5274mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-26 [Unplated] (1316.572,5224mil) And Pad P2_DAQ7-28 [Unplated] (1316.572,5274mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-28 [Unplated] (672,5274mil) And Pad P2_DAQ8-30 [Unplated] (672,5324mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-32 [Unplated] (1316.572,5374mil) And Pad P2_DAQ7-34 [Unplated] (1316.572,5424mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-38 [Unplated] (672,5524mil) And Pad P2_DAQ8-40 [Unplated] (672,5574mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-34 [Unplated] (1961.142,5424mil) And Pad P2_DAQ6-36 [Unplated] (1961.142,5474mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-42 [Unplated] (1961.142,5624mil) And Pad P2_DAQ6-44 [Unplated] (1961.142,5674mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-34 [Unplated] (672,5424mil) And Pad P2_DAQ8-36 [Unplated] (672,5474mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-36 [Unplated] (1316.572,5474mil) And Pad P2_DAQ7-38 [Unplated] (1316.572,5524mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-44 [Unplated] (672,5674mil) And Pad P2_DAQ8-46 [Unplated] (672,5724mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-40 [Unplated] (672,5574mil) And Pad P2_DAQ8-42 [Unplated] (672,5624mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-46 [Unplated] (672,5724mil) And Pad P2_DAQ8-48 [Unplated] (672,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-36 [Unplated] (1961.142,5474mil) And Pad P2_DAQ6-38 [Unplated] (1961.142,5524mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-38 [Unplated] (1316.572,5524mil) And Pad P2_DAQ7-40 [Unplated] (1316.572,5574mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-30 [Unplated] (672,5324mil) And Pad P2_DAQ8-32 [Unplated] (672,5374mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-30 [Unplated] (3894.858,5324mil) And Pad P2_DAQ3-32 [Unplated] (3894.858,5374mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-28 [Unplated] (3250.286,5274mil) And Pad P2_DAQ4-30 [Unplated] (3250.286,5324mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C18-2 (7193.094,5590mil) And Pad C3-1 (7202,5546mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-75 (7023.636,4945.882mil) And Pad U1-78 (7023.636,5004.938mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C4-1 (6372.314,5839.686mil) And Pad C11-2 (6423.314,5827.78mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C12-2 (6661.314,5828.78mil) And Pad C5-1 (6715.314,5839.686mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U5-4 (1045.331,3973.943mil) And Pad C26-2 (1103.577,3958.796mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D10-2 (7706.749,5588.136mil) And Pad D11-2 (7708.227,5703.416mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D10-2 (7706.749,5588.136mil) And Pad D9-2 (7709.375,5469.935mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-5 (5726.142,3768.19mil) And Pad U2-3 (5860,3768.19mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U3-5 (3795.142,3768.19mil) And Pad U3-3 (3929,3768.19mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-136 (6419.306,5668.322mil) And Pad C11-2 (6423.314,5827.78mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-89 (7023.636,5221.472mil) And Pad C19-2 (7195.094,5221mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C12-2 (6661.314,5828.78mil) And Pad U1-123 (6675.212,5668.322mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-108 (7023.636,5595.488mil) And Pad C18-2 (7193.094,5590mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-54 (6596.472,4833.678mil) And Pad U1-63 (6773.636,4833.678mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C15-1 (6617,4651.316mil) And Pad C16-1 (6794,4649.316mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-48 [Unplated] (5184,5774mil) And Pad P2_DAQ1-49 [Unplated] (5319,5824mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-48 [Unplated] (4539.428,5774mil) And Pad P2_DAQ2-49 [Unplated] (4674.428,5824mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-48 [Unplated] (3894.858,5774mil) And Pad P2_DAQ3-49 [Unplated] (4029.858,5824mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-48 [Unplated] (2605.714,5774mil) And Pad P2_DAQ5-49 [Unplated] (2740.714,5824mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-48 [Unplated] (3250.286,5774mil) And Pad P2_DAQ4-49 [Unplated] (3385.286,5824mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-48 [Unplated] (1961.142,5774mil) And Pad P2_DAQ6-49 [Unplated] (2096.142,5824mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-48 [Unplated] (672,5774mil) And Pad P2_DAQ8-49 [Unplated] (807,5824mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-48 [Unplated] (1316.572,5774mil) And Pad P2_DAQ7-49 [Unplated] (1451.572,5824mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C1-1 (6341,4654.316mil) And Pad U1-42 (6360.252,4833.678mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C7-1 (5999.63,5292mil) And Pad U1-17 (6188.992,5280.528mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C6-1 (5990.316,4966mil) And Pad U1-32 (6188.992,4985.252mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-4 (7574.314,5111.796mil) And Pad J1-6 (7680.614,5232.662mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D7-2 (802.466,3658.458mil) And Fill on layer Top Layer (826.543,3423.399mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad SW4-1 [Unplated] (7484.424,6259.74mil) And Pad SW4-2 [Unplated] (7748.204,6259.74mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-5 (7680.614,4715.338mil) And Pad D8-2 (7690.842,4461mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (3599.714,3962.795mil) And Via (3795.43,3846.645mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C22-2 (2743.016,3435mil) And Via (2770.207,3723.18mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-75 (7023.636,4945.882mil) And Pad C13-1 (7231.314,4829.598mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-3 (5860,3768.19mil) And Fill on layer Top Layer (5978.396,3561.598mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (5509.364,3975.015mil) And Via (5726.496,3849.271mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U3-3 (3929,3768.19mil) And Fill on layer Top Layer (4074.754,3561.597mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C9-1 (6767.314,4257.598mil) And Pad C10-1 (7141.314,4259.598mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Fill on layer Top Layer (4350.063,3468.376mil) And Pad C20-2 (4679.016,3420mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad SW1-2 [Unplated] (6215.307,6367.586mil) And Pad SW2-2 [Unplated] (6602.177,6370.119mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad SW2-2 [Unplated] (6602.177,6370.119mil) And Pad SW3-2 [Unplated] (6990.202,6355.884mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Fill on layer Top Layer (1338.892,3423.399mil) And Pad U4-6 (1787,3389.174mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-4 (5767,4621mil) And Pad C6-1 (5990.316,4966mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J2-1 (7555,3751.574mil) And Pad D8-2 (7690.842,4461mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-24 [Unplated] (3894.858,5174mil) And Pad P2_DAQ3-26 [Unplated] (3894.858,5224mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-42 [Unplated] (3250.286,5624mil) And Pad P2_DAQ4-44 [Unplated] (3250.286,5674mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-24 [Unplated] (5184,5174mil) And Pad P2_DAQ1-26 [Unplated] (5184,5224mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-24 [Unplated] (4539.428,5174mil) And Pad P2_DAQ2-26 [Unplated] (4539.428,5224mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-38 [Unplated] (2605.714,5524mil) And Pad P2_DAQ5-40 [Unplated] (2605.714,5574mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-30 [Unplated] (3250.286,5324mil) And Pad P2_DAQ4-32 [Unplated] (3250.286,5374mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-44 [Unplated] (1961.142,5674mil) And Pad P2_DAQ6-46 [Unplated] (1961.142,5724mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-44 [Unplated] (2605.714,5674mil) And Pad P2_DAQ5-46 [Unplated] (2605.714,5724mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-38 [Unplated] (5184,5524mil) And Pad P2_DAQ1-40 [Unplated] (5184,5574mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-36 [Unplated] (4539.428,5474mil) And Pad P2_DAQ2-38 [Unplated] (4539.428,5524mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-44 [Unplated] (4539.428,5674mil) And Pad P2_DAQ2-46 [Unplated] (4539.428,5724mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-44 [Unplated] (5184,5674mil) And Pad P2_DAQ1-46 [Unplated] (5184,5724mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-44 [Unplated] (3894.858,5674mil) And Pad P2_DAQ3-46 [Unplated] (3894.858,5724mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-26 [Unplated] (1961.142,5224mil) And Pad P2_DAQ6-28 [Unplated] (1961.142,5274mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-28 [Unplated] (2605.714,5274mil) And Pad P2_DAQ5-30 [Unplated] (2605.714,5324mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-28 [Unplated] (1316.572,5274mil) And Pad P2_DAQ7-30 [Unplated] (1316.572,5324mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-32 [Unplated] (672,5374mil) And Pad P2_DAQ8-34 [Unplated] (672,5424mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-28 [Unplated] (3894.858,5274mil) And Pad P2_DAQ3-30 [Unplated] (3894.858,5324mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-32 [Unplated] (1961.142,5374mil) And Pad P2_DAQ6-34 [Unplated] (1961.142,5424mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-42 [Unplated] (672,5624mil) And Pad P2_DAQ8-44 [Unplated] (672,5674mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-44 [Unplated] (1316.572,5674mil) And Pad P2_DAQ7-46 [Unplated] (1316.572,5724mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-34 [Unplated] (1316.572,5424mil) And Pad P2_DAQ7-36 [Unplated] (1316.572,5474mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-54 (6596.472,4833.678mil) And Pad C15-1 (6617,4651.316mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-78 (7023.636,5004.938mil) And Pad U1-89 (7023.636,5221.472mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C1-1 (6341,4654.316mil) And Pad C17-1 (6571,4653.316mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C11-2 (6423.314,5827.78mil) And Pad C12-2 (6661.314,5828.78mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-6 (7680.614,5232.662mil) And Pad D9-2 (7709.375,5469.935mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-32 (6188.992,4985.252mil) And Pad U1-17 (6188.992,5280.528mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C19-2 (7195.094,5221mil) And Pad C3-1 (7202,5546mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C9-1 (6767.314,4257.598mil) And Pad C16-1 (6794,4649.316mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-4 (7574.314,5111.796mil) And Pad J1-5 (7680.614,4715.338mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D7-2 (802.466,3658.458mil) And Pad U5-4 (1045.331,3973.943mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad SW3-2 [Unplated] (6990.202,6355.884mil) And Pad SW4-1 [Unplated] (7484.424,6259.74mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (5726.496,3849.271mil) And Pad P1-4 (5767,4621mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U4-6 (1787,3389.174mil) And Via (2687.896,3427.776mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D4-1 (2802.386,3715mil) And Pad D2-1 (3570.614,3965mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-38 [Unplated] (3250.286,5524mil) And Pad P2_DAQ4-40 [Unplated] (3250.286,5574mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-30 [Unplated] (5184,5324mil) And Pad P2_DAQ1-32 [Unplated] (5184,5374mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-38 [Unplated] (1961.142,5524mil) And Pad P2_DAQ6-40 [Unplated] (1961.142,5574mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-34 [Unplated] (2605.714,5424mil) And Pad P2_DAQ5-36 [Unplated] (2605.714,5474mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-30 [Unplated] (4539.428,5324mil) And Pad P2_DAQ2-32 [Unplated] (4539.428,5374mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-38 [Unplated] (3894.858,5524mil) And Pad P2_DAQ3-40 [Unplated] (3894.858,5574mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-40 [Unplated] (1316.572,5574mil) And Pad P2_DAQ7-42 [Unplated] (1316.572,5624mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-36 [Unplated] (672,5474mil) And Pad P2_DAQ8-38 [Unplated] (672,5524mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-32 (6188.992,4985.252mil) And Pad U1-42 (6360.252,4833.678mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-63 (6773.636,4833.678mil) And Pad U1-75 (7023.636,4945.882mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-123 (6675.212,5668.322mil) And Pad U1-108 (7023.636,5595.488mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C2-1 (7201,5181mil) And Pad J1-4 (7574.314,5111.796mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad D11-2 (7708.227,5703.416mil) And Pad SW4-2 [Unplated] (7748.204,6259.74mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C20-2 (4679.016,3420mil) And Pad U2-6 (5860,3392.204mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ7-49 [Unplated] (1451.572,5824mil) And Pad P2_DAQ6-48 [Unplated] (1961.142,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ3-49 [Unplated] (4029.858,5824mil) And Pad P2_DAQ2-48 [Unplated] (4539.428,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ2-49 [Unplated] (4674.428,5824mil) And Pad P2_DAQ1-48 [Unplated] (5184,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ6-49 [Unplated] (2096.142,5824mil) And Pad P2_DAQ5-48 [Unplated] (2605.714,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ8-49 [Unplated] (807,5824mil) And Pad P2_DAQ7-48 [Unplated] (1316.572,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ5-49 [Unplated] (2740.714,5824mil) And Pad P2_DAQ4-48 [Unplated] (3250.286,5774mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ1-28 [Unplated] (5184,5274mil) And Pad C7-1 (5999.63,5292mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P2_DAQ4-49 [Unplated] (3385.286,5824mil) And Pad P2_DAQ3-48 [Unplated] (3894.858,5774mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Pad P2_DAQ2-8 [Unplated] (4539.428,4774mil) And Via (4539.437,4724.009mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Pad P2_DAQ1-6 [Unplated] (5184,4724mil) And Pad P2_DAQ1-8 [Unplated] (5184,4774mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Via (3894.858,4724mil) And Pad P2_DAQ3-8 [Unplated] (3894.858,4774mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Via (3250.286,4724mil) And Pad P2_DAQ4-8 [Unplated] (3250.286,4774mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Pad P2_DAQ5-6 [Unplated] (2605.714,4724mil) And Pad P2_DAQ5-8 [Unplated] (2605.714,4774mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Via (1961.142,4724mil) And Pad P2_DAQ6-8 [Unplated] (1961.142,4774mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Via (1316.572,4724mil) And Pad P2_DAQ7-8 [Unplated] (1316.572,4774mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Pad P2_DAQ8-6 [Unplated] (672,4724mil) And Pad P2_DAQ8-8 [Unplated] (672,4774mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Pad P2_DAQ8-6 [Unplated] (672,4724mil) And Pad R10-2 (705.063,3863.745mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Via (3894.858,4724mil) And Pad P2_DAQ2-6 [Unplated] (4539.428,4724mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Via (1316.572,4724mil) And Via (1961.142,4724mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Via (4539.437,4724.009mil) And Pad P2_DAQ1-6 [Unplated] (5184,4724mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Pad P2_DAQ5-6 [Unplated] (2605.714,4724mil) And Via (3250.286,4724mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Pad P2_DAQ8-6 [Unplated] (672,4724mil) And Via (1316.572,4724mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Via (3250.286,4724mil) And Via (3894.858,4724mil)
+   Violation between Un-Routed Net Constraint: Net N5V Between Via (1961.142,4724mil) And Pad P2_DAQ5-6 [Unplated] (2605.714,4724mil)
+   Violation between Un-Routed Net Constraint: Net N5VR Between Pad U4-3 (1787,3761.22mil) And Pad C23-2 (2176.146,3506.281mil)
+   Violation between Un-Routed Net Constraint: Net N5VR Between Fill on layer Top Layer (646.239,3888.134mil) And Pad D3-1 (1412.523,3962.038mil)
+Rule Violations :285
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint (327.953mil > 100mil) : Pad J2-0(7555mil,3350mil)  Multi-Layer
+   Violation between Hole Size Constraint (327.953mil > 100mil) : Pad J3-0(6805mil,3350mil)  Multi-Layer
+Rule Violations :2
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Pad D10-2(7706.749mil,5588.136mil)  Top Layer and 
+                     Pad D10-1(7647.693mil,5588.136mil)  Top Layer
+   Violation between Pad D9-2(7709.375mil,5469.935mil)  Top Layer and 
+                     Pad D9-1(7650.319mil,5469.935mil)  Top Layer
+   Violation between Pad D8-2(7690.842mil,4461mil)  Top Layer and 
+                     Pad D8-1(7631.786mil,4461mil)  Top Layer
+   Violation between Pad D1-2(7481.786mil,5981mil)  Top Layer and 
+                     Pad D1-1(7540.842mil,5981mil)  Top Layer
+   Violation between Pad R8-1(7578.707mil,5572.639mil)  Top Layer and 
+                     Pad R8-2(7539.335mil,5572.639mil)  Top Layer
+   Violation between Pad R7-1(7580.816mil,5454.595mil)  Top Layer and 
+                     Pad R7-2(7541.444mil,5454.595mil)  Top Layer
+   Violation between Pad R6-1(7561mil,4481mil)  Top Layer and 
+                     Pad R6-2(7521.628mil,4481mil)  Top Layer
+   Violation between Pad R3-1(7739.515mil,5926.092mil)  Top Layer and 
+                     Pad R3-2(7778.885mil,5926.092mil)  Top Layer
+   Violation between Pad R2-2(6936.628mil,4330mil)  Top Layer and 
+                     Pad R2-1(6975.998mil,4330mil)  Top Layer
+   Violation between Pad C25-1(1935.043mil,3951.706mil)  Top Layer and 
+                     Pad C25-2(1935.043mil,3991.076mil)  Top Layer
+   Violation between Pad C17-1(6571mil,4653.316mil)  Top Layer and 
+                     Pad C17-2(6571mil,4692.686mil)  Top Layer
+   Violation between Pad C16-1(6794mil,4649.316mil)  Top Layer and 
+                     Pad C16-2(6794mil,4688.686mil)  Top Layer
+   Violation between Pad C15-1(6617mil,4651.316mil)  Top Layer and 
+                     Pad C15-2(6617mil,4690.686mil)  Top Layer
+   Violation between Pad C14-1(6000.63mil,5252mil)  Top Layer and 
+                     Pad C14-2(6040mil,5252mil)  Top Layer
+   Violation between Pad C7-1(5999.63mil,5292mil)  Top Layer and 
+                     Pad C7-2(6039mil,5292mil)  Top Layer
+   Violation between Pad C6-1(5990.316mil,4966mil)  Top Layer and 
+                     Pad C6-2(6029.686mil,4966mil)  Top Layer
+   Violation between Pad C5-1(6715.314mil,5839.686mil)  Top Layer and 
+                     Pad C5-2(6715.314mil,5800.314mil)  Top Layer
+   Violation between Pad C4-1(6372.314mil,5839.686mil)  Top Layer and 
+                     Pad C4-2(6372.314mil,5800.314mil)  Top Layer
+   Violation between Pad C3-1(7202mil,5546mil)  Top Layer and 
+                     Pad C3-2(7162.628mil,5546mil)  Top Layer
+   Violation between Pad C2-1(7201mil,5181mil)  Top Layer and 
+                     Pad C2-2(7161.628mil,5181mil)  Top Layer
+   Violation between Pad C1-1(6341mil,4654.316mil)  Top Layer and 
+                     Pad C1-2(6341mil,4693.686mil)  Top Layer
+   Violation between Pad R9-1(7580.268mil,5687.713mil)  Top Layer and 
+                     Pad R9-2(7540.896mil,5687.713mil)  Top Layer
+   Violation between Pad D11-2(7708.227mil,5703.416mil)  Top Layer and 
+                     Pad D11-1(7649.171mil,5703.416mil)  Top Layer
+   Violation between Via (6253.479mil,4900.948mil) Top Layer to Bottom Layer and 
+                     Pad U1-36(6188.992mil,4906.512mil)  Top Layer
+   Violation between Pad U5-4(1045.331mil,3973.943mil)  Bottom Layer and 
+                     Pad C26-1(1103.577mil,3986.356mil)  Bottom Layer
+   Violation between Pad U5-4(1045.331mil,3973.943mil)  Bottom Layer and 
+                     Pad C26-2(1103.577mil,3958.796mil)  Bottom Layer
+   Violation between Via (6938mil,5568mil) Top Layer to Bottom Layer and 
+                     Via (6892mil,5569mil) Top Layer to Bottom Layer
+   Violation between Via (6895mil,5523mil) Top Layer to Bottom Layer and 
+                     Via (6892mil,5569mil) Top Layer to Bottom Layer
+   Violation between Via (6796mil,5473mil) Top Layer to Bottom Layer and 
+                     Via (6795mil,5426mil) Top Layer to Bottom Layer
+   Violation between Via (6722.668mil,4973.369mil) Top Layer to Bottom Layer and 
+                     Via (6723.007mil,5018.501mil) Top Layer to Bottom Layer
+   Violation between Via (6775.265mil,5020.198mil) Top Layer to Bottom Layer and 
+                     Via (6777.301mil,5066.348mil) Top Layer to Bottom Layer
+   Violation between Via (6671.088mil,4973.029mil) Top Layer to Bottom Layer and 
+                     Via (6671.757mil,4928.567mil) Top Layer to Bottom Layer
+   Violation between Via (5056.687mil,4351.416mil) Top Layer to Bottom Layer and 
+                     Via (5017.755mil,4325.96mil) Top Layer to Bottom Layer
+   Violation between Via (590.294mil,4325.106mil) Top Layer to Bottom Layer and 
+                     Via (625.909mil,4351.416mil) Top Layer to Bottom Layer
+   Violation between Via (554.406mil,4299.119mil) Top Layer to Bottom Layer and 
+                     Via (590.294mil,4325.106mil) Top Layer to Bottom Layer
+Rule Violations :35
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Track (2953.41mil,3865.196mil)(3004.59mil,3865.196mil)  Top Overlay and 
+                     Pad R11-1(2979mil,3902.598mil)  Top Layer
+   Violation between Track (592.857mil,3838.155mil)(592.857mil,3889.335mil)  Top Overlay and 
+                     Pad R10-1(630.259mil,3863.745mil)  Top Layer
+   Violation between Track (5475mil,4022.244mil)(5475mil,4032.086mil)  Top Overlay and 
+                     Pad D5-1(5476.614mil,3975mil)  Top Layer
+   Violation between Track (5475mil,3915.944mil)(5475mil,3927.756mil)  Top Overlay and 
+                     Pad D5-1(5476.614mil,3975mil)  Top Layer
+   Violation between Track (5315mil,4022.244mil)(5315mil,4032.086mil)  Top Overlay and 
+                     Pad D5-2(5303.386mil,3975mil)  Top Layer
+   Violation between Track (5315mil,3915.944mil)(5315mil,3927.756mil)  Top Overlay and 
+                     Pad D5-2(5303.386mil,3975mil)  Top Layer
+   Violation between Track (1410.909mil,3902.982mil)(1410.909mil,3914.794mil)  Top Overlay and 
+                     Pad D3-1(1412.523mil,3962.038mil)  Top Layer
+   Violation between Track (1410.909mil,4009.282mil)(1410.909mil,4019.124mil)  Top Overlay and 
+                     Pad D3-1(1412.523mil,3962.038mil)  Top Layer
+   Violation between Track (1250.909mil,3902.982mil)(1250.909mil,3914.794mil)  Top Overlay and 
+                     Pad D3-2(1239.295mil,3962.038mil)  Top Layer
+   Violation between Track (1250.909mil,4009.282mil)(1250.909mil,4019.124mil)  Top Overlay and 
+                     Pad D3-2(1239.295mil,3962.038mil)  Top Layer
+   Violation between Track (3569mil,4012.244mil)(3569mil,4022.086mil)  Top Overlay and 
+                     Pad D2-1(3570.614mil,3965mil)  Top Layer
+   Violation between Track (3569mil,3905.944mil)(3569mil,3917.756mil)  Top Overlay and 
+                     Pad D2-1(3570.614mil,3965mil)  Top Layer
+   Violation between Track (3409mil,4012.244mil)(3409mil,4022.086mil)  Top Overlay and 
+                     Pad D2-2(3397.386mil,3965mil)  Top Layer
+   Violation between Track (3409mil,3905.944mil)(3409mil,3917.756mil)  Top Overlay and 
+                     Pad D2-2(3397.386mil,3965mil)  Top Layer
+   Violation between Track (1823.805mil,3968.645mil)(1823.805mil,3984.393mil)  Top Overlay and 
+                     Pad R4-1(1837.585mil,3946.991mil)  Top Layer
+   Violation between Track (1851.365mil,3968.645mil)(1851.365mil,3984.393mil)  Top Overlay and 
+                     Pad R4-1(1837.585mil,3946.991mil)  Top Layer
+   Violation between Track (1823.805mil,3968.645mil)(1823.805mil,3984.393mil)  Top Overlay and 
+                     Pad R4-2(1837.585mil,4006.047mil)  Top Layer
+   Violation between Track (1851.365mil,3968.645mil)(1851.365mil,3984.393mil)  Top Overlay and 
+                     Pad R4-2(1837.585mil,4006.047mil)  Top Layer
+   Violation between Track (7738.44mil,5972.22mil)(7754.188mil,5972.22mil)  Top Overlay and 
+                     Pad R1-1(7716.786mil,5986mil)  Top Layer
+   Violation between Track (7738.44mil,5999.78mil)(7754.188mil,5999.78mil)  Top Overlay and 
+                     Pad R1-1(7716.786mil,5986mil)  Top Layer
+   Violation between Track (7738.44mil,5972.22mil)(7754.188mil,5972.22mil)  Top Overlay and 
+                     Pad R1-2(7775.842mil,5986mil)  Top Layer
+   Violation between Track (7738.44mil,5999.78mil)(7754.188mil,5999.78mil)  Top Overlay and 
+                     Pad R1-2(7775.842mil,5986mil)  Top Layer
+   Violation between Text "R7" (7514.999mil,5497.692mil)  Top Overlay and 
+                     Pad D10-1(7647.693mil,5588.136mil)  Top Layer
+   Violation between Track (7143.882mil,5588.032mil)(7143.882mil,5591.968mil)  Top Overlay and 
+                     Pad C18-1(7165.534mil,5590mil)  Top Layer
+   Violation between Track (6659.346mil,5779.568mil)(6663.282mil,5779.568mil)  Top Overlay and 
+                     Pad C12-1(6661.314mil,5801.22mil)  Top Layer
+   Violation between Track (6421.346mil,5778.568mil)(6425.282mil,5778.568mil)  Top Overlay and 
+                     Pad C11-1(6423.314mil,5800.22mil)  Top Layer
+   Violation between Text "R7" (7514.999mil,5497.692mil)  Top Overlay and 
+                     Pad R8-2(7539.335mil,5572.639mil)  Top Layer
+   Violation between Text "R7" (7514.999mil,5497.692mil)  Top Overlay and 
+                     Pad R8-1(7578.707mil,5572.639mil)  Top Layer
+   Violation between Text "C14" (5900.314mil,5167mil)  Top Overlay and 
+                     Pad C14-2(6040mil,5252mil)  Top Layer
+   Violation between Track (7205.724mil,4792.196mil)(7256.904mil,4792.196mil)  Top Overlay and 
+                     Pad C13-1(7231.314mil,4829.598mil)  Top Layer
+   Violation between Track (7115.724mil,4222.196mil)(7166.904mil,4222.196mil)  Top Overlay and 
+                     Pad C10-1(7141.314mil,4259.598mil)  Top Layer
+   Violation between Track (6741.724mil,4220.196mil)(6792.904mil,4220.196mil)  Top Overlay and 
+                     Pad C9-1(6767.314mil,4257.598mil)  Top Layer
+   Violation between Track (6527.373mil,6363.229mil)(6564.775mil,6363.229mil)  Top Overlay and 
+                     Pad SW2-2(6602.177mil,6370.119mil)  Top Layer
+   Violation between Track (6639.579mil,6363.229mil)(6676.979mil,6363.229mil)  Top Overlay and 
+                     Pad SW2-2(6602.177mil,6370.119mil)  Top Layer
+   Violation between Track (6527.373mil,6127.009mil)(6564.775mil,6127.009mil)  Top Overlay and 
+                     Pad SW2-1(6602.177mil,6120.119mil)  Top Layer
+   Violation between Track (6639.579mil,6127.009mil)(6676.979mil,6127.009mil)  Top Overlay and 
+                     Pad SW2-1(6602.177mil,6120.119mil)  Top Layer
+   Violation between Track (6252.709mil,6360.696mil)(6290.109mil,6360.696mil)  Top Overlay and 
+                     Pad SW1-2(6215.307mil,6367.586mil)  Top Layer
+   Violation between Track (6140.503mil,6360.696mil)(6177.905mil,6360.696mil)  Top Overlay and 
+                     Pad SW1-2(6215.307mil,6367.586mil)  Top Layer
+   Violation between Track (6252.709mil,6124.476mil)(6290.109mil,6124.476mil)  Top Overlay and 
+                     Pad SW1-1(6215.307mil,6117.586mil)  Top Layer
+   Violation between Track (6140.503mil,6124.476mil)(6177.905mil,6124.476mil)  Top Overlay and 
+                     Pad SW1-1(6215.307mil,6117.586mil)  Top Layer
+   Violation between Track (6915.398mil,6348.994mil)(6952.8mil,6348.994mil)  Top Overlay and 
+                     Pad SW3-2(6990.202mil,6355.884mil)  Top Layer
+   Violation between Track (7027.604mil,6348.994mil)(7065.006mil,6348.994mil)  Top Overlay and 
+                     Pad SW3-2(6990.202mil,6355.884mil)  Top Layer
+   Violation between Track (6915.398mil,6112.774mil)(6952.8mil,6112.774mil)  Top Overlay and 
+                     Pad SW3-1(6990.202mil,6105.884mil)  Top Layer
+   Violation between Track (7027.604mil,6112.774mil)(7065.006mil,6112.774mil)  Top Overlay and 
+                     Pad SW3-1(6990.202mil,6105.884mil)  Top Layer
+   Violation between Track (7740.33mil,6141.63mil)(7740.33mil,6220.37mil)  Top Overlay and 
+                     Pad SW4-4(7748.204mil,6102.26mil)  Top Layer
+   Violation between Track (7740.33mil,6141.63mil)(7740.33mil,6220.37mil)  Top Overlay and 
+                     Pad SW4-2(7748.204mil,6259.74mil)  Top Layer
+   Violation between Track (7492.298mil,6141.63mil)(7492.298mil,6220.37mil)  Top Overlay and 
+                     Pad SW4-3(7484.424mil,6102.26mil)  Top Layer
+   Violation between Track (7492.298mil,6141.63mil)(7492.298mil,6220.37mil)  Top Overlay and 
+                     Pad SW4-1(7484.424mil,6259.74mil)  Top Layer
+   Violation between Track (4720.013mil,3722.026mil)(4771.193mil,3722.026mil)  Top Overlay and 
+                     Pad R12-1(4745.603mil,3759.428mil)  Top Layer
+   Violation between Text "R8" (7494.58mil,5607.953mil)  Top Overlay and 
+                     Pad R9-2(7540.896mil,5687.713mil)  Top Layer
+   Violation between Text "R8" (7494.58mil,5607.953mil)  Top Overlay and 
+                     Pad R9-1(7580.268mil,5687.713mil)  Top Layer
+   Violation between Track (1705.831mil,3966.08mil)(1705.831mil,3981.828mil)  Top Overlay and 
+                     Pad R5-1(1719.611mil,4003.482mil)  Top Layer
+   Violation between Track (1733.391mil,3966.08mil)(1733.391mil,3981.828mil)  Top Overlay and 
+                     Pad R5-1(1719.611mil,4003.482mil)  Top Layer
+   Violation between Track (1705.831mil,3966.08mil)(1705.831mil,3981.828mil)  Top Overlay and 
+                     Pad R5-2(1719.611mil,3944.426mil)  Top Layer
+   Violation between Track (1733.391mil,3966.08mil)(1733.391mil,3981.828mil)  Top Overlay and 
+                     Pad R5-2(1719.611mil,3944.426mil)  Top Layer
+   Violation between Track (4893.504mil,3688.19mil)(4893.504mil,3711.812mil)  Top Overlay and 
+                     Pad F1-2(4925mil,3755.118mil)  Top Layer
+   Violation between Track (4956.496mil,3688.19mil)(4956.496mil,3711.812mil)  Top Overlay and 
+                     Pad F1-2(4925mil,3755.118mil)  Top Layer
+   Violation between Track (4893.504mil,3688.19mil)(4893.504mil,3711.812mil)  Top Overlay and 
+                     Pad F1-1(4925mil,3644.882mil)  Top Layer
+   Violation between Track (4956.496mil,3688.19mil)(4956.496mil,3711.812mil)  Top Overlay and 
+                     Pad F1-1(4925mil,3644.882mil)  Top Layer
+   Violation between Track (4893.504mil,3688.19mil)(4956.496mil,3688.19mil)  Top Overlay and 
+                     Pad F1-1(4925mil,3644.882mil)  Top Layer
+   Violation between Text "R9" (7512.276mil,5715.492mil)  Top Overlay and 
+                     Pad D11-1(7649.171mil,5703.416mil)  Top Layer
+   Violation between Track (630.852mil,3705.702mil)(630.852mil,3717.514mil)  Top Overlay and 
+                     Pad D7-1(629.238mil,3658.458mil)  Top Layer
+   Violation between Track (630.852mil,3601.372mil)(630.852mil,3611.214mil)  Top Overlay and 
+                     Pad D7-1(629.238mil,3658.458mil)  Top Layer
+   Violation between Track (790.852mil,3705.702mil)(790.852mil,3717.514mil)  Top Overlay and 
+                     Pad D7-2(802.466mil,3658.458mil)  Top Layer
+   Violation between Track (790.852mil,3601.372mil)(790.852mil,3611.214mil)  Top Overlay and 
+                     Pad D7-2(802.466mil,3658.458mil)  Top Layer
+   Violation between Track (2357.067mil,3590.041mil)(2357.067mil,3769.175mil)  Top Overlay and 
+                     Pad D6-1(2410.217mil,3593.977mil)  Top Layer
+   Violation between Track (2463.367mil,3590.041mil)(2463.367mil,3769.175mil)  Top Overlay and 
+                     Pad D6-1(2410.217mil,3593.977mil)  Top Layer
+   Violation between Track (2357.067mil,3590.041mil)(2463.367mil,3590.041mil)  Top Overlay and 
+                     Pad D6-1(2410.217mil,3593.977mil)  Top Layer
+   Violation between Track (2357.067mil,3590.041mil)(2357.067mil,3769.175mil)  Top Overlay and 
+                     Pad D6-2(2410.217mil,3767.205mil)  Top Layer
+   Violation between Track (2463.367mil,3590.041mil)(2463.367mil,3769.175mil)  Top Overlay and 
+                     Pad D6-2(2410.217mil,3767.205mil)  Top Layer
+   Violation between Track (2357.067mil,3769.175mil)(2463.367mil,3769.175mil)  Top Overlay and 
+                     Pad D6-2(2410.217mil,3767.205mil)  Top Layer
+   Violation between Area Fill (2382.599mil,3682.619mil) (2437.599mil,3792.619mil)  Top Overlay and 
+                     Pad D6-2(2410.217mil,3767.205mil)  Top Layer
+   Violation between Track (2964mil,3762.756mil)(2964mil,3770mil)  Top Overlay and 
+                     Pad D4-2(2975.614mil,3715mil)  Top Layer
+   Violation between Track (2961.52mil,3659.882mil)(2961.52mil,3667.756mil)  Top Overlay and 
+                     Pad D4-2(2975.614mil,3715mil)  Top Layer
+   Violation between Track (2804mil,3760.316mil)(2804mil,3770mil)  Top Overlay and 
+                     Pad D4-1(2802.386mil,3715mil)  Top Layer
+   Violation between Track (2800.102mil,3659.882mil)(2800.102mil,3667.756mil)  Top Overlay and 
+                     Pad D4-1(2802.386mil,3715mil)  Top Layer
+   Violation between Track (7145.882mil,5219.032mil)(7145.882mil,5222.968mil)  Top Overlay and 
+                     Pad C19-1(7167.534mil,5221mil)  Top Layer
+   Violation between Track (7596.754mil,5316.52mil)(7765.258mil,5316.52mil)  Top Overlay and 
+                     Pad J1-6(7680.614mil,5232.662mil)  Multi-Layer
+   Violation between Track (7596.754mil,4631.48mil)(7765.258mil,4631.48mil)  Top Overlay and 
+                     Pad J1-5(7680.614mil,4715.338mil)  Multi-Layer
+   Violation between Track (1101.609mil,4008.008mil)(1105.545mil,4008.008mil)  Bottom Overlay and 
+                     Pad C26-1(1103.577mil,3986.356mil)  Bottom Layer
+Rule Violations :80
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Violation between Text "SW1" (6148mil,6437mil)  Top Overlay and 
+                     Track (425mil,6469.141mil)(7942.402mil,6469.141mil)  Top Overlay
+   Violation between Text "SW2" (6535mil,6439mil)  Top Overlay and 
+                     Track (425mil,6469.141mil)(7942.402mil,6469.141mil)  Top Overlay
+   Violation between Text "SW3" (6923mil,6425mil)  Top Overlay and 
+                     Track (425mil,6469.141mil)(7942.402mil,6469.141mil)  Top Overlay
+   Violation between Text "R4" (1824.411mil,4055.694mil)  Top Overlay and 
+                     Text "C25" (1929.578mil,4039.259mil)  Top Overlay
+   Violation between Text "R5" (1705.53mil,4052.823mil)  Top Overlay and 
+                     Text "R4" (1824.411mil,4055.694mil)  Top Overlay
+Rule Violations :5
+
+Processing Rule : Silk primitive without silk layer
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (8109.748mil,4694.472mil)(8109.748mil,5253.528mil)  Top Overlay
+Rule Violations :1
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Via (728.796mil,3862.449mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (568.359mil,3382.847mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (2181.122mil,3456.461mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (2410.31mil,3557.535mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (672mil,4824mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (807mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (672mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (1319.449mil,4822.719mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (1316.572mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (1451.572mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (1961.142mil,4824mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (1961.142mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (2096.142mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (2605.714mil,4824mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (2605.714mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (2740.714mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (3250.286mil,4824mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (3250.286mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (3385.286mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (3894.858mil,4824mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (4029.858mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (3894.858mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (4426.112mil,4818.857mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (4539.437mil,4724.009mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (4674.428mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (5071.495mil,4789.623mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (5319mil,4724mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (5187.884mil,4723.429mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (6098mil,4964mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (6342mil,4756mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (5860.476mil,3849.281mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (5726.496mil,3849.271mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (5509.364mil,3975.015mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (4679.016mil,3420mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (4747.408mil,3863.608mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (3929.871mil,3850.304mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (3795.43mil,3846.645mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (3599.714mil,3962.795mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (2770.207mil,3723.18mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (2687.896mil,3427.776mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Via (2980.639mil,4008.273mil) Top Layer to Bottom Layer
+   Violation between Net Antennae: Track (6734.266mil,4833.678mil)(6734.266mil,4961.771mil)  Top Layer
+   Violation between Net Antennae: Track (6753.952mil,4833.678mil)(6753.952mil,4987.556mil)  Top Layer
+   Violation between Net Antennae: Track (6852.378mil,4833.678mil)(6852.378mil,5041.814mil)  Top Layer
+   Violation between Net Antennae: Track (6872.062mil,4833.678mil)(6872.062mil,5075.765mil)  Top Layer
+   Violation between Net Antennae: Track (2484.843mil,5074mil)(2605.714mil,5074mil)  Top Layer
+   Violation between Net Antennae: Track (4436.722mil,5074mil)(4539.428mil,5074mil)  Top Layer
+   Violation between Net Antennae: Track (1833.648mil,5074mil)(1961.142mil,5074mil)  Top Layer
+Rule Violations :48
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=8mil) (Max=30mil) (Preferred=8mil) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=2mil) (All),(All)
+   Violation between Track (4436.722mil,5074mil)(4539.428mil,5074mil)  Top Layer and 
+                     Pad P2_DAQ2-20(4539.428mil,5074mil)  Top Layer
+   Violation between Track (2484.843mil,5074mil)(2605.714mil,5074mil)  Top Layer and 
+                     Pad P2_DAQ5-20(2605.714mil,5074mil)  Top Layer
+   Violation between Track (1833.648mil,5074mil)(1961.142mil,5074mil)  Top Layer and 
+                     Pad P2_DAQ6-20(1961.142mil,5074mil)  Top Layer
+   Violation between Track (6753.952mil,4833.678mil)(6753.952mil,4987.556mil)  Top Layer and 
+                     Pad U1-62(6753.952mil,4833.678mil)  Top Layer
+   Violation between Track (6734.266mil,4833.678mil)(6734.266mil,4961.771mil)  Top Layer and 
+                     Pad U1-61(6734.266mil,4833.678mil)  Top Layer
+   Violation between Track (6872.062mil,4833.678mil)(6872.062mil,5075.765mil)  Top Layer and 
+                     Pad U1-68(6872.062mil,4833.678mil)  Top Layer
+   Violation between Track (6852.378mil,4833.678mil)(6852.378mil,5041.814mil)  Top Layer and 
+                     Pad U1-67(6852.378mil,4833.678mil)  Top Layer
+Rule Violations :7
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+
+Violations Detected : 500
+Time Elapsed        : 00:00:05

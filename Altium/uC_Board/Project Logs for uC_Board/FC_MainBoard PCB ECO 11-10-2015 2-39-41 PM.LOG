@@ -1,0 +1,20 @@
+Added Pin To Net: NetName=S\T\B\Y\_DAQ2 Pin=P2_DAQ2-20
+Added Pin To Net: NetName=S\T\B\Y\_DAQ5 Pin=P2_DAQ5-20
+Added Pin To Net: NetName=S\T\B\Y\_DAQ6 Pin=P2_DAQ6-20
+Added Pin To Net: NetName=S\T\B\Y\_DAQ3 Pin=U1-61
+Added Pin To Net: NetName=S\T\B\Y\_DAQ4 Pin=U1-62
+Added Pin To Net: NetName=S\T\B\Y\_DAQ7 Pin=U1-67
+Added Pin To Net: NetName=S\T\B\Y\_DAQ8 Pin=U1-68
+Change Net Name : Old Net Name=NetC20_1 New Net Name=3V3R
+Change Net Name : Old Net Name=NetC21_2 New Net Name=N5VR
+Change Net Name : Old Net Name=NetC22_1 New Net Name=5VR
+Added Room: Name=DAQ1
+Added Room: Name=DAQ2
+Added Room: Name=DAQ3
+Added Room: Name=DAQ4
+Added Room: Name=DAQ5
+Added Room: Name=DAQ6
+Added Room: Name=DAQ7
+Added Room: Name=DAQ8
+Added Room: Name=Power
+Added Room: Name=uC Board
