@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=OUT1 Pin=ADC-49
+Removed Pin From Net: NetName=OUT2 Pin=ADC-51
+Removed Pin From Net: NetName=OUT5 Pin=ADC-57
+Removed Pin From Net: NetName=OUT6 Pin=ADC-59
+Removed Pin From Net: NetName=NetC1_CC_2 Pin=R1_1-1
+Removed Pin From Net: NetName=NetC2_CC_2 Pin=R2_1-1
+Removed Pin From Net: NetName=NetC5_CC_2 Pin=R5_1-1
+Removed Pin From Net: NetName=NetC6_CC_2 Pin=R6_1-1
+Change Component Designator: OldDesignator=Op Amp 2 NewDesignator=Operational Amp 2
+Added Pin To Net: NetName=OUT2 Pin=ADC-49
+Added Pin To Net: NetName=OUT1 Pin=ADC-51
+Added Pin To Net: NetName=OUT6 Pin=ADC-57
+Added Pin To Net: NetName=OUT5 Pin=ADC-59
+Added Pin To Net: NetName=NetC2_CC_2 Pin=R1_1-1
+Added Pin To Net: NetName=NetC1_CC_2 Pin=R2_1-1
+Added Pin To Net: NetName=NetC6_CC_2 Pin=R5_1-1
+Added Pin To Net: NetName=NetC5_CC_2 Pin=R6_1-1
+Change Net Name : Old Net Name=OUT1 New Net Name=OUT2
+Change Net Name : Old Net Name=OUT2 New Net Name=OUT1
+Change Net Name : Old Net Name=OUT5 New Net Name=OUT6
+Change Net Name : Old Net Name=OUT6 New Net Name=OUT5
